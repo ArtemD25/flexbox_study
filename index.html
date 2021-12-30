@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <h1 class="visually-hidden">EPAM website</h1>
+    <div class="wrapper">
+      <ul class="cards">
+        <li class="card">
+          <div class="card__visual main-header">
+            <h2 class="card__main-header">Epam</h2>
+          </div>
+          <div class="card__descr">
+            <p class="card__main-cite">“What We Do We help customers around the world become competitive - and stay competitive. We combine best-in-class software engineering with digital strategy and experience design, business consulting and technology innovation services."</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__visual">
+            <div class="card__rounded-image-wrapper">
+              <img class="card__rounded-image" src="./img/image-04.jpg" alt="Screenshot from a game" width="100">
+            </div>
+            <small class="card__image-descr">Epic Games: Transforming the Gaming Industry.</small>
+          </div>
+          <div class="card__descr">
+            <h3 class="card__header">Learn-From-Home Services for Enterprises</h3>
+            <p
+              class="card__text">As the travel industry addresses some of the major challenges that emerged as a result of the pandemic, airlines can turn to intelligent automation to improve experiences and operations.</p>
+            <button class="button button--right" type="button">Read more</button>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__visual full-image-wrapper full-image-payment scale-effect"></div>
+          <div class="card__descr">
+            <h3 class="card__header">Architecting Security into Your Modern Enterprise</h3>
+            <p
+              class="card__text">It's time to engineer a trusted future through strategically architected cybersecurity. <a class="link" href="https://www.epam.com/" target="_blank">Epam</a> website. Thank you.</p>
+            <button class="button" type="button">Read more</button>
+          </div>
+        </li>
+      </ul>
+      <article class="article">
+        <div class="article__text-container">
+          <h2 class="article__header">Lorem ipsum dolor sit.</h2>
+          <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi itaque libero nemo nisi officia, placeat quis repellat sequi similique.</p>
+          <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi itaque libero nemo nisi officia, placeat quis repellat sequi similique.</p>
+          <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Aliquam assumenda, at cum ducimus eveniet, excepturi itaque libero nemo nisi officia, placeat quis repellat sequi similique.</p>
+          <button class="button button--right" type="button">Read more</button>
+        </div>
+        <div class="article__image scale-effect">
+          <img src="./img/image-02.jpg" alt="Green forest and football field" height="345">
+        </div>
+      </article>
+      <article class="article article--reverse">
+        <div class="pricing-container">
+          <div class="pricing">
+            <div class="pricing__head">
+              <h3 class="pricing__head-header">Standard plan</h3>
+              <p class="pricing__head-text">($25 per month)</p>
+            </div>
+            <div class="pricing__body">
+              <p class="pricing__body-paragraph">Lorem ipsum dolor sit amet.</p>
+              <p class="pricing__body-paragraph">Lorem ipsum</p>
+              <p class="pricing__body-paragraph">Lorem ipsum dolor.</p>
+              <p class="pricing__body-paragraph">Lorem ipsum dolor.</p>
+              <p class="pricing__body-paragraph">Lorem ipsum dolor sit.</p>
+              <p class="pricing__body-paragraph">Lorem dolor</p>
+              <button class="button button--center" type="button">Buy now</button>
+            </div>
+          </div>
+          <div class="pricing pricing-expand">
+            <div class="pricing__head">
+              <h3 class="pricing__head-header">Advanced plan</h3>
+              <p class="pricing__head-text">($40 per month)</p>
+            </div>
+            <div class="pricing__body">
+              <p class="pricing__body-paragraph">Lorem ipsum dolor sit amet.</p>
+              <p class="pricing__body-paragraph">Lorem ipsum</p>
+              <p class="pricing__body-paragraph">Lorem ipsum dolor.</p>
+              <p class="pricing__body-paragraph">Lorem ipsum dolor.</p>
+              <p class="pricing__body-paragraph">Lorem ipsum dolor sit.</p>
+              <p class="pricing__body-paragraph">Lorem dolor</p>
+              <button class="button button--center" type="button">Buy now</button>
+              <p class="special-offer"><span class="asterix">*</span> Special discount </p>
+            </div>
+          </div>
+        </div>
+        <div class="article__image scale-effect">
+          <img src="./img/image-03.jpg" alt="Green forest and football field" width="100">
+        </div>
+      </article>
+      <article class="section-form">
+        <h3 class="section-form__header">Application form</h3>
+        <form class="form" action="#">
+          <div class="form-container">
+            <div class="form__inputs">
+              <fieldset class="form__user-data">
+                <legend class="visually-hidden">Enter your personal data</legend>
+                <label class="visually-hidden" for="fullname">Full name</label>
+                <input class="input form__name" id="fullname" type="text" placeholder="Full Name">
+                <label class="visually-hidden" for="email">Email</label>
+                <input class="input form__email" id="email" type="email" placeholder="Your Email">
+                <label class="visually-hidden" for="position">Position</label>
+                <input class="input form__position" id="position" type="text" placeholder="Position">
+                <label class="visually-hidden" for="salary">Salary</label>
+                <input class="input form__salary" id="salary" type="number" placeholder="Salary" min="0">
+              </fieldset>
+              <fieldset class="form__textarea">
+                <legend class="visually-hidden">Enter additional long message if needed</legend>
+                <label class="visually-hidden" for="additional_message">Additional Message</label>
+                <textarea class="input form__additional-message" id="additional_message" rows="6" placeholder="Additional Message"></textarea>
+              </fieldset>
+            </div>
+            <button class="button button--center" type="button">Submit</button>
+          </div>
+        </form>
+      </article>
+      <footer class="footer">
+        <div class="footer__text-block">
+          <h3 class="footer__header">Lorem ipsum dolor</h3>
+          <p class="footer__paragraph">1010 Vivamaus viverra</p>
+          <p class="footer__paragraph">Leo vel porttitor sodales</p>
+          <p class="footer__paragraph">Non eleifend 10980</p>
+        </div>
+        <div class="footer__text-block">
+          <p class="footer__paragraph">Maecenas fermentum</p>
+          <p class="footer__paragraph">Nam eu justo et urna</p>
+          <p class="footer__paragraph">Semper maximus libero</p>
+          <p class="footer__paragraph">Etiam magna quam</p>
+        </div>
+      </footer>
+      <section class="copyright">
+        <h2 class="visually-hidden">Copyright information</h2>
+        <small class="copyright__text">Copyright © 2020 Your Company Name</small>
+      </section>
+    </div>
+  </body>
+</html>
